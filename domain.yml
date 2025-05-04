@@ -1,0 +1,46 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_study_tips
+  - ask_motivation
+  - ask_break
+
+responses:
+  utter_greet:
+    - text: "Hi there! Ready to hit the books?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Good luck with your studying! You've got this. 👋"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  utter_study_tips:
+    - text: "Break your study time into 25-minute focused sessions with 5-minute breaks. Avoid multitasking!"
+
+  utter_motivation:
+    - text: "You're capable of more than you think. Every small step counts. Let's go!"
+
+  utter_break:
+    - text: "Yes, take a short break. Stretch, breathe, and come back refreshed."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
