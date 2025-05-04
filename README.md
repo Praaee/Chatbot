@@ -1,4 +1,4 @@
-Study Helper Chatbot powerd by Rasa
+# Study Helper Chatbot powerd by Rasa
 
 ## Features
 
